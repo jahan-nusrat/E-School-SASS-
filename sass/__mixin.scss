@@ -1,0 +1,10 @@
+@mixin transition($property, $duration, $name) {
+    -webkit-transition: $property $duration $name;
+    -o-transition: $property $duration $name;
+    transition: $property $duration $name;
+}
+
+@mixin shadow($value1, $value2, $value3) {
+    -webkit-box-shadow: $value1 $value2 $value3 rgba($primary_Color, 0.2);
+    box-shadow: $value1 $value2 $value3 rgba($primary_Color, 0.2);
+}
